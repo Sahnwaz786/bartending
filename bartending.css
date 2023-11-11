@@ -1,0 +1,394 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: hotpink; */
+    position: relative;
+    
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+    padding: 20px 30px;
+
+}
+#page1 h4{
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 55%;
+}
+#page1 h5{
+    font-size: 12px;
+    font-weight: 500;
+}
+#page1 #sign{
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+   padding-bottom: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    transition: all ease 0.7s;
+}
+#page1 #sign:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+#page1 h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: Nature Beauty Personal Use;
+    
+}
+#unl{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+
+}
+#page1 h6{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#unl button{
+    height: 25px;
+    width: 55px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 3.5px;
+    background-color: black;
+    color: white;
+    transition: all ease 0.7s;
+}
+#page1 img{
+    height: 78%;
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#page1 #unl button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+#page2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0 40px ;
+    padding-top: 70px;
+}
+#page2 #part-1{
+    height: 100%;
+    width: 30%;
+    
+    /* background-color: brown; */
+}
+
+#page2 #part-2{
+    height: 100%;
+    width: 30%;
+    /* background-color: chartreuse; */
+}
+#page2 #part-3{
+    height: 100%;
+    width: 30%;
+    /* background-color: darkred; */
+}
+#page2 #part-1 img{
+    height: 78%;
+    width: 100%;
+   object-fit: cover;
+   object-position: 20% 50%;
+   border-radius: 10px;
+   transition: all ease 0.5s;
+}
+#page2 #part-1 img:hover{
+    scale: 1.1;
+}
+#page2 #part-2 img{
+    height: 78%;
+    width: 100%;
+   object-fit: cover;
+   object-position: 30% 50%;
+   border-radius: 10px;
+   transition: all ease 0.5s;
+}
+#page2 #part-2 img:hover{
+    scale: 1.1;
+}
+#page2 #part-3 img{
+    height: 78%;
+    width: 100%;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 10px;
+   transition: all ease 0.5s;
+}
+#page2 #part-3   img:hover{
+    scale: 1.1;
+}
+#page2 #part-1 h6{
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#page2 #part-2 h6{
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+}
+#page2 #part-3 h6{
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+}
+#page2 #part-1 h5{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+#page2 #part-2 h5{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+#page2 #part-3 h5{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+#page2 h4{
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#page3{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    /* display: flex; */
+}
+#page3 #left{
+    height: 80%;
+    width: 35%;
+    background-color: magenta;
+   position: absolute;
+   top: 10%;
+   left: 7%;
+   border-radius: 8px;
+}
+#page3 #left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 28%;
+    border-radius: 7px;
+
+}
+ #right{
+    font-size: 12px;
+    font-weight: 400;
+   position: absolute;
+   top: 3%;
+   right: 20%;
+   margin: 20px
+   
+}
+#page3 #right h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+#page3 #right h5{
+    margin-top: 220px;
+    font-size: 12px;
+    font-weight: 450;
+    margin-bottom:20px ;
+ }
+ #page3 h3{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    font-family: PLAZA PERSONAL USE;
+    /* font-family: Nature Beauty Personal Use; */ 
+ }
+ #page4{
+    height: 115%;
+    width: 100%;
+    /* background-color: hotpink; */
+    position: relative;
+ }
+ #page4 h1{
+    font-size: 30px;
+    font-weight: 700;
+   padding-top: 16px;
+   padding-left: 35%;
+   /* font-family: Nature Beauty Personal Use; */
+   /* font-family: Baby Sela; */
+ }
+ #page4 h6{
+    font-size: 12px;
+    font-weight: 600;
+   padding-top: 15px;
+   /* padding-left: 2%; */
+   text-align: center;
+ }
+ #page4 #three{
+    height: 65%;
+    width: 23%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 27%;
+    left: 23%;
+ }
+ #page4 #five{
+    height: 53%;
+    width: 23%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 33%;
+    left: 55%;
+ }
+ #page4 #four{
+    height: 38%;
+    width: 18%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 43%;
+    left: 42%;
+    z-index: 3;
+ }
+ #page4 #two{
+    height: 42%;
+    width: 10%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 42%;
+    left: 14%;
+    /* z-index: 3; */
+ }
+ #page4 #one{
+    height: 15%;
+    width: 25%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    /* z-index: 3; */
+ }
+ #page4 #six{
+    height: 36%;
+    width: 18%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 53%;
+    right: 12%;
+    /* z-index: 3; */
+ }
+ #page4 #seven{
+ height: 33%;
+ width: 10%;
+ object-fit: cover;
+ object-position: center;
+ position: absolute;
+ top: 45%;
+ right: 5%;
+ /* z-index: 3; */
+}
+#page5{
+    height: 130px;
+    width: 100%;
+    /* background-color: forestgreen; */
+}
+#page5 h6{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 43%;
+}
+#page5 #cont{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 30px;
+    padding-left: 28%;
+    padding-top: 24px;
+}
+#page5 #cont p1{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Baby Sela;
+}
+#page5 #cont p2{
+    font-size: 23px;
+    font-weight: 900;
+    font-family: Right ;
+}
+#page5 #cont p3{
+
+    font-weight: 800;
+    font-size: 13px;
+    font-family: Emotional Rescue Personal Use;
+}
+#page5 #cont p4{
+    font-weight: 600;
+    font-family: Colours Personal Use;
+}
+
